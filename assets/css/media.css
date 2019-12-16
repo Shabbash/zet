@@ -1,0 +1,603 @@
+/* MEDIA QUERY */
+
+
+/*---------- XS -------------- XS --------------- XS --------------- XS ------------------- XS --------- */
+
+@media(min-width: 320px) and (max-width: 767px) {
+    /* ----------------  Start Navbar ----------------------------- */
+    .navbar {
+        background-color: rgba(72, 85, 99, 1);
+    }
+    .navbar-nav {}
+    .navbar-dark .navbar-nav .nav-link {}
+    .navbar-dark .navbar-toggler {}
+    .navbar-dark .navbar-toggler-icon {}
+    /* ----------------  End Navbar ----------------------------- */
+    /* ----------------  Start Home ----------------------------- */
+    .home {
+        height: auto;
+    }
+    .home .intro {
+        padding: 0;
+        padding-top: 140px;
+        padding-bottom: 70px;
+    }
+    .home .intro h1 {
+        font-size: 24px;
+    }
+    .home .intro p {
+        padding: 28px 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .home .intro .btn-light {
+        margin-top: 30px;
+        padding: 5px 25px;
+        font-size: 14px;
+    }
+    .home a {
+        margin: auto;
+        margin-top: 30px;
+        height: 35px;
+        width: 35px;
+    }
+    .home a span {
+        line-height: 35px;
+    }
+    .home a span i {
+        line-height: 35px;
+        font-size: 14px;
+    }
+    /* ----------------  End Home ----------------------------- */
+    /* global tags */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ul {
+        margin: 0;
+    }
+    h2 {
+        padding-top: 60px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    p {}
+    hr {
+        width: 30%;
+    }
+    /* global tags */
+    /* ----------------  Start services ----------------------------- */
+    .services {
+        padding-bottom: 50px;
+    }
+    h3 {
+        padding: 20px 0 15px 0;
+    }
+    .services .service {
+        padding: 20px 0;
+    }
+    .services .service span {
+        height: 100px;
+        width: 100px;
+    }
+    .services .service i {
+        font-size: 35px;
+        line-height: 100px;
+    }
+    .services .service p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    /* ----------------  End services ----------------------------- */
+    /* ----------------  Start works ----------------------------- */
+    .works {
+        text-align: center;
+    }
+    .works .work {}
+    .works .work .img-fluid {}
+    .works .work:hover .img-fluid {}
+    .works .myGallery {}
+    .works .myGallery a {}
+    .works .myGallery a img {}
+    /* ----------------  End works ----------------------------- */
+    /* ----------------  Start testimonials ----------------------------- */
+    .testimonials {}
+    .owl-carousel button.owl-dot {}
+    .owl-carousel button.owl-dot:hover {}
+    .owl-carousel button.owl-dot:first-child {}
+    .owl-carousel button.owl-dot.active {}
+    .owl-carousel p {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: justify;
+    }
+    .owl-carousel .owl-item img {}
+    .owl-carousel i {}
+    .owl-carousel h3 {}
+    .owl-carousel span {}
+    .owl-dots {}
+    /* ----------------  End testimonials ----------------------------- */
+    /* ----------------  Start Team ----------------------------- */
+    .team {}
+    .team h2 {
+        padding-top: 60px;
+        font-weight: 600;
+        font-size: 28px;
+    }
+    .team p {}
+    .team hr {}
+    .team .card {
+    margin-bottom: 25px;
+}
+    .team .card img {}
+    .team .card .card-body {}
+    .team .card .card-body h5 {}
+    .team .card .card-body span {}
+    .team .card .card-body ul {}
+    .team .card .card-body ul li {}
+    .team .card .card-body ul li:first-child {}
+    .team .card .card-body ul li a {}
+    .team .card .card-body ul li a i {}
+    .circle-icon {}
+    .team .btn-light {
+        padding: 5px 30px;
+        font-size: 14px;
+        margin: 50px 0;
+    }
+    /* ----------------  End Team ----------------------------- */
+    /* ----------------  Start partners ----------------------------- */
+    .partners {
+    text-align: center;
+}
+    /* ----------------  End partners ----------------------------- */
+    /* ----------------  Start pricing ----------------------------- */
+    .pricing {
+    padding-bottom: 50px;
+}
+    .pricing hr {
+        margin-bottom: 20px;
+    }
+    .pricing .top-div {}
+    .pricing .priceBox {}
+    .pricing .priceBox:last-child {
+    border-bottom: 0px;
+}
+    .pricing .priceBox h3 {}
+    .pricing .priceBox p.price {}
+    .pricing .priceBox span {}
+    .pricing .priceBox div.border-top {}
+    .pricing .priceBox p {
+        padding: 20px 20px;
+    }
+    .pricing .priceBox a.btn-info {
+        position: unset;
+    }
+    .pricing p.last {
+        color: #a291a5;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0px 105px 70px 105px;
+        font-family: 'Source Sans Pro', sans-serif;
+        transition-duration: 0.3s;
+    }
+    .pricing p.last {}
+    /* ----------------  End pricing ----------------------------- */
+    /* ----------------  Start contact ----------------------------- */
+    .contact {
+        height: auto;
+        /* padding-bottom: 40px; */
+    }
+    .contact .main.row {}
+    .contact .map-responsive {}
+    .contact .map-responsive iframe {}
+    .contact .contact-us {
+        /* text-align: center; */
+        /* padding-bottom: 40px; */
+        height: auto;
+        padding-top: 55px;
+        padding-bottom: 40px;
+    }
+    .contact .contact-us .col-form-label {}
+    .contact .contact-us .form-control {
+        width: 200px;
+        height: 30px;
+    }
+    .contact .contact-us textarea.form-control {}
+    .contact .contact-us .btn-primary {
+        margin: 0 auto;
+        text-align: center;
+        align-self: center;
+        width: 200px;
+    }
+    .contact .contact-us .btn-primary:hover {}
+    .contact .contact-us .invalid-feedback {}
+    /* ----------------  End contact ----------------------------- */
+    /* ----------------  start footer ----------------------------- */
+    .footer {
+        text-align: center;
+        height: auto;
+        /* line-height: unset; */
+        line-height: 1.5;
+        padding: 25px 0;
+    }
+    .footer .col-12 {
+        text-align: center;
+    }
+    .footer img {
+        margin: 20px;
+    }
+    .footer span {
+        text-align: center !important;
+        font-size: 16px;
+        font-weight: 600;
+        /* padding-bottom: 20px; */
+    }
+    .footer a:first-child {}
+    .footer a {
+        margin-top: 20px;
+    }
+    .footer a:hover {}
+    .footer a i {
+        /* margin-top: 15px; */
+    }
+    .footer .justify-content-end {}
+    /* ----------------  end footer ----------------------------- */
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 360px) and (max-width: 767px) {}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 375px) and (max-width: 767px) {}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 411px) and (max-width: 767px) {}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 414px) and (max-width: 767px) {
+	.contact .contact-us .form-control {
+	    width: 240px;
+	    height: 35px;
+	}
+	.contact .contact-us .btn-primary {
+	    width: 240px;
+	    font-size: 16px;
+	}
+
+	.contact .contact-us .col-form-label {
+	    text-align: center;
+	    padding-left: 36px;
+	}
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 568px) and (max-width: 767px) {
+	.owl-carousel p{
+		text-align: center;
+	}
+}
+
+
+/* ------- SM ------------- SM ------------- SM ------------- SM ------------- SM ------------- SM ------ */
+
+@media(min-width: 640px) and (max-width: 767px) {
+	.team {
+	    background-size: cover;
+	}
+	.team .card {
+    margin-top: 20px;
+}
+	.contact .contact-us .form-control,.contact .contact-us .btn-primary{
+		width: 100%;
+	}
+
+	.pricing .priceBox:last-child{
+		    border: 1px solid #eee;
+
+	}
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 667px) and (max-width: 767px) {}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 731px) and (max-width: 767px) {}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 736px) and (max-width: 767px) {}
+
+
+/* ----- MD --------- MD --------- MD --------- MD --------- MD --------- MD --------- MD --------- MD ----*/
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+	    /* ----------------  Start Navbar ----------------------------- */
+    .navbar {
+        background-color: rgba(72, 85, 99, 1);
+    }
+    .navbar-nav {}
+    .navbar-dark .navbar-nav .nav-link {}
+    .navbar-dark .navbar-toggler {}
+    .navbar-dark .navbar-toggler-icon {}
+    /* ----------------  End Navbar ----------------------------- */
+    /* ----------------  Start Home ----------------------------- */
+    .home {
+        height: auto;
+    }
+    .home .intro {
+        padding: 0;
+        padding-top: 140px;
+        padding-bottom: 70px;
+    }
+    .home .intro h1 {
+        font-size: 34px;
+    }
+    .home .intro p {
+        padding: 40px 50px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .home .intro .btn-light {
+        margin-top: 10px;
+        padding: 8px 36px;
+        font-size: 21px;
+    }
+    .home a {
+        margin: auto;
+        margin-top: 30px;
+        height: 35px;
+        width: 35px;
+    }
+    .home a span {
+        line-height: 35px;
+    }
+    .home a span i {
+        line-height: 35px;
+        font-size: 14px;
+    }
+    /* ----------------  End Home ----------------------------- */
+    /* global tags */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ul {
+        margin: 0;
+    }
+    h2 {
+        padding-top: 60px;
+        font-weight: 700;
+        font-size: 33px;
+    }
+    p {
+    padding: 18px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+    hr {
+        width: 40%;
+    }
+    /* global tags */
+    /* ----------------  Start services ----------------------------- */
+    .services {
+        padding-bottom: 50px;
+    }
+    h3 {
+        /* padding: 20px 0 15px 0; */
+        font-size: 30px;
+    }
+    .services .service {
+        padding: 20px 0;
+    }
+    .services .service span {
+        height: 160px;
+        width: 160px;
+    }
+    .services .service i {
+        font-size: 61px;
+        line-height: 160px;
+    }
+    .services .service p {
+        font-size: 19px;
+        font-weight: 600;
+    }
+    /* ----------------  End services ----------------------------- */
+    /* ----------------  Start works ----------------------------- */
+    .works {
+        text-align: center;
+    }
+    .works .work {}
+    .works .work .img-fluid {}
+    .works .work:hover .img-fluid {}
+    .works .myGallery {}
+    .works .myGallery a {}
+    .works .myGallery a img {}
+    /* ----------------  End works ----------------------------- */
+    /* ----------------  Start testimonials ----------------------------- */
+    .testimonials {}
+    .owl-carousel button.owl-dot {}
+    .owl-carousel button.owl-dot:hover {}
+    .owl-carousel button.owl-dot:first-child {}
+    .owl-carousel button.owl-dot.active {}
+    .owl-carousel p {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .owl-carousel .owl-item img {}
+    .owl-carousel i {}
+    .owl-carousel h3 {}
+    .owl-carousel span {}
+    .owl-dots {}
+    /* ----------------  End testimonials ----------------------------- */
+    /* ----------------  Start Team ----------------------------- */
+    .team {}
+    .team h2 {
+        padding-top: 60px;
+        font-weight: 600;
+        font-size: 28px;
+    }
+    .team p {}
+    .team hr {}
+    .team .card {
+    	    margin-top: 30px;
+
+    }
+    .team .card img {}
+    .team .card .card-body {}
+    .team .card .card-body h5 {}
+    .team .card .card-body span {}
+    .team .card .card-body ul {}
+    .team .card .card-body ul li {}
+    .team .card .card-body ul li:first-child {}
+    .team .card .card-body ul li a {}
+    .team .card .card-body ul li a i {}
+    .circle-icon {}
+    .team .btn-light {
+        padding: 10px 35px;
+        font-size: 17px;
+        margin: 50px 0;
+    }
+    /* ----------------  End Team ----------------------------- */
+    /* ----------------  Start partners ----------------------------- */
+    .partners {
+    text-align: center;
+}
+    /* ----------------  End partners ----------------------------- */
+    /* ----------------  Start pricing ----------------------------- */
+    .pricing {}
+    .pricing hr {
+        margin-bottom: 60px;
+    }
+    .pricing .top-div {}
+    .pricing .priceBox {}
+    .pricing .priceBox:last-child {
+    /* border-bottom: 0px; */
+}
+    .pricing .priceBox h3 {
+    font-size: 25px;
+}
+    .pricing .priceBox p.price {}
+    .pricing .priceBox span {}
+    .pricing .priceBox div.border-top {}
+    .pricing .priceBox p {
+        padding: 5px 9px 75px 9px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .pricing .priceBox a.btn-info {
+        position: absolute;
+    }
+    .pricing p.last {
+        color: #a291a5;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0px 105px 70px 105px;
+        font-family: 'Source Sans Pro', sans-serif;
+        transition-duration: 0.3s;
+    }
+    .pricing p.last {}
+    /* ----------------  End pricing ----------------------------- */
+    /* ----------------  Start contact ----------------------------- */
+    .contact {
+        height: auto;
+        /* padding-bottom: 40px; */
+    }
+    .contact .main.row {
+}
+    .contact .map-responsive {}
+    .contact .map-responsive iframe {}
+    .contact .contact-us {
+        /* text-align: center; */
+        /* padding-bottom: 40px; */
+        height: auto;
+        padding-top: 55px;
+        padding-bottom: 40px;
+    }
+    .contact .contact-us .col-form-label {
+    text-align: right;
+    font-size: 16px;
+}
+
+.form-group{
+	justify-content: unset !important;
+}
+    .contact .contact-us .form-control {
+        width: 100%;
+        height: 40px;
+    }
+    .contact .contact-us textarea.form-control {}
+    .contact .contact-us .btn-primary {
+        margin: 0 auto;
+        text-align: center;
+        /* align-self: center; */
+        width: 100%;
+    }
+    .contact .contact-us .btn-primary:hover {}
+    .contact .contact-us .invalid-feedback {}
+    /* ----------------  End contact ----------------------------- */
+    /* ----------------  start footer ----------------------------- */
+    .footer {
+        text-align: center;
+        height: auto;
+        /* line-height: unset; */
+        line-height: 1.5;
+        padding: 25px 0;
+    }
+    .footer .col-12 {
+        text-align: center;
+    }
+    .footer img {
+        margin: 20px;
+    }
+    .footer span {
+        text-align: center !important;
+        font-size: 16px;
+        font-weight: 600;
+        /* padding-bottom: 20px; */
+    }
+    .footer a:first-child {}
+    .footer a {
+        margin-top: 20px;
+    }
+    .footer a:hover {}
+    .footer a i {
+        /* margin-top: 15px; */
+    }
+    .footer .justify-content-end {}
+    /* ----------------  end footer ----------------------------- */
+
+}
+
+
+/* ---- LG ------- LG ------- LG ------- LG ------- LG ------- LG ------- LG ------- LG -------- LG ------- */
+
+@media(min-width: 1024px) and (max-width: 1365px) {}
+
+
+/* ------- XL ----------- XL ----------- XL ----------- XL ----------- XL ----------- XL ----------- XL ---- */
+
+@media(min-width: 1366px) and (max-width: 1367px) {}
